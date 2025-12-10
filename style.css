@@ -8,4 +8,8 @@ body {
     background-position: center;   /* centers the image */
     background-repeat: no-repeat;  /* prevents tiling */
     background-attachment: fixed;  /* image stays still while scrolling (optional) */
+    padding-top: 100px;
+}
+.navbar {
+    border-bottom: 10px solid #024a85;
 }
