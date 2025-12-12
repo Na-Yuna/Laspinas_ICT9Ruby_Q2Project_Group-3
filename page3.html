@@ -69,17 +69,17 @@
             <form class="shadow p-4 rounded bg-white">
                 <div class="row mb-3">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="First Name">
+                        <input type="text" class="form-control" placeholder="First Name" required>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Last Name">
+                        <input type="text" class="form-control" placeholder="Last Name" required>
                     </div>
                 </div>
 
-                <input type="email" class="form-control mb-3" placeholder="Email">
-                <input type="text" class="form-control mb-3" placeholder="Phone">
+                <input type="email" class="form-control mb-3" placeholder="Email" required>
+                <input type="text" class="form-control mb-3" placeholder="Phone" required>
 
-                <select class="form-select mb-3">
+                <select class="form-select mb-3" required>
                     <option selected>Select Campus</option>
                     <option value="Angeles">Angeles</option>
 					<option value="Fairview">Fairvew</option>
@@ -88,7 +88,7 @@
 					<option value="Sta Ana">Sta Ana</option>
                 </select>
 
-                <select class="form-select mb-3">
+                <select class="form-select mb-3" required>
                     <option selected>Select Student Grade Level</option>
                     <option value="CASA">CASA</option>
 					<option value="1">1</option>
@@ -106,7 +106,7 @@
 				</select>
                 </select>
 
-                <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+                <textarea class="form-control mb-3" rows="4" placeholder="Message" required></textarea>
 
                 <button class="btn w-100 text-white" style="background-color: #024a85;">Send</button>
             </form>
